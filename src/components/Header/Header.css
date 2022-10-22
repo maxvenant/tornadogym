@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 11rem;
+    height: 12rem;
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+    transform: scale(0.65);
+}
+.logo-wrapper>span {
+    position: absolute;
+    left: 9.6rem;
+    top: 4.7rem;
+    font-size: x-large;
+}
+.logo-wrapper>hr {
+    border: 1px solid var(--orange);
+    width: 18.7rem;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.header-menu>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+@media screen and (max-width: 768px) {
+    .header>:nth-child(2) {
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    .header-menu {
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+        border-radius: 5px;
+    }
+    .burger {
+        background-color: rgb(244, 137, 21, 0.6);
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+    .burger>img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .logo-wrapper>hr {
+        display: none;
+    }
+    .logo {
+        width: 11rem;
+        height: 12rem;
+        position: absolute;
+        left: 1rem;
+        top: -2rem;
+        transform: scale(0.5);
+    }
+    .logo-wrapper>span {
+        color: black;
+        position: absolute;
+        left: 9rem;
+        top: 3.7rem;
+        font-size: large;
+
+
+    }
+}
