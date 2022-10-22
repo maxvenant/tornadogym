@@ -55,6 +55,7 @@
     .left-j {
         font-size: x-large;
         flex-direction: column;
+        line-height: 2.5rem;
     }
     .right-j {
         padding: 2rem;

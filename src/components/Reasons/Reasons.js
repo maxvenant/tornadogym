@@ -47,7 +47,7 @@ const Reasons = () => {
                         <span><span style={{textTransform: "lowercase"}}>i</span>dman q<span style={{textTransform: "lowercase"}}>i</span>dalarinin satişi və hazirlanmasi</span>
                     </div>
                 </div>
-                <span className="partners">Our partners</span>
+                <span className="partners"></span>
                 <div className="partnersImg">
                     <img src={nb} alt=""/>
                     <img src={adidas} alt=""/>
